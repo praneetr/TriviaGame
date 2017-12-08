@@ -1,0 +1,77 @@
+html, body{
+  height:100%;
+}
+
+body{
+  background-image: url(../images/bitcoin.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+#wrapper{
+  margin: -4% auto;
+
+}
+
+#subwrapper{
+  position: relative;
+  width: auto;
+  height: 100%;
+}
+
+button{
+  display:block;
+  width:50%;
+  height:20%;
+  margin: 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;
+  border:2px solid red;
+  background: white;
+}
+
+img{
+  height:400px;
+  width: 500px;
+  border:2px solid red;
+}
+
+h1{
+  font-family: 'Arial', sans-serif;
+  font-size: 6.5em;
+  font-weight: bold;
+  color:red;
+  padding-top: 2.5%;
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 25px;
+  color: red;
+  font-weight: bold;
+  border:2px solid red;
+  background: white;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: red;
+  border:2px solid red;
+  background: white;
+}
+
+#start{
+  margin-top: 10%;
+  border:2px solid red;
+  background: white;
+}
+
+button:hover {
+  background: green;
+  border:2px solid red;
+}
